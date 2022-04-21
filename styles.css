@@ -1,0 +1,196 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  max-width: 1300;
+}
+
+/* Navbar Styling */
+
+header {
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  max-width: 1250px;;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar img {
+  margin-left: 10px;
+  height: 50px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  flex-flow: row;
+
+  margin: 0;
+  padding: 0;
+  list-style:  none;
+}
+
+nav li {
+  align-items: flex-end;
+  flex-shrink: 1;
+  flex-grow: 1;
+  justify-content: space-between;
+  padding: 5px;
+  text-decoration: underline;
+}
+
+/* Mission Styling */
+.mission-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  max-width: 1200px;
+  height: 700px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 0px 25px;
+}
+
+/* .mission-container img {
+  
+} */
+
+.our-mission {
+  background-color: black;
+  justify-content: center;
+  text-align: center;
+  position: absolute;
+
+  width: 100%;
+}
+
+
+/* Tea of the Month Style */
+.tea-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1300px;
+  padding-top: 50px;
+}
+
+/* Items Styles */
+
+.items-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  max-width: 1300px;
+  padding-left: 20px;
+
+}
+
+.items-container img {
+  max-width: 300px;
+  max-height: 200px;
+  margin: 10px 10px;
+}
+
+.items-container h4 {
+  margin-top: 0px;
+}
+
+.items-container .items-top-line {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+/* Locations Styles */
+
+.locations {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+  background-size: cover;
+  max-width: 1200px;
+  height: 700px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  padding: 50px 25px; 
+}
+
+.locations h2 {
+  /* background-color: red; */
+  position: absolute;
+  top: -50%;
+  right: 41.25%;
+  z-index: 1;
+
+  font-weight: bold;
+}
+
+.locations-container {
+  display: flex;
+  text-align: center;
+  position: absolute;
+  gap: 40px;
+}
+
+.locations-container div {
+  background-color: black;
+  width: 300px;
+  margin-top: 15px;
+  padding-bottom: 15px;
+  gap: 40px;
+  opacity: 1;
+}
+
+.locations-container h3 {
+  font-weight: bold;;
+}
+
+.locations-container p {
+  justify-content: center;
+  align-items: center;
+}
+
+/* Contact Styles */
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 200px;
+  margin-bottom: 25px;
+}
+
+/* Footer Style */
+
+.copyright {
+  margin-left: 20px;
+  text-align: left;
+}
+
+
+
+/* NOTES
+>> FIXED << Tea of the month h2 and h4 continue to grow with navbar
+  >> FIXED << items-top-line and bottom line are not centering with tea of the month
+--- Fixed by adjusting max-width of the tea-container and items-container to 1300px; ---
+
+>> FIXED << Cover image and mission statement are stuck on the left when adjusting navbar to full size
+
+>> Locations Added
+  >> Location cards not aligning on a row, staying stacked as a column
+
+>> Add contact info
+
+>> Add Footer
+*/
