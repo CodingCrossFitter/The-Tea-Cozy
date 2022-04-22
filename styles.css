@@ -178,19 +178,3 @@ nav li {
   text-align: left;
 }
 
-
-
-/* NOTES
->> FIXED << Tea of the month h2 and h4 continue to grow with navbar
-  >> FIXED << items-top-line and bottom line are not centering with tea of the month
---- Fixed by adjusting max-width of the tea-container and items-container to 1300px; ---
-
->> FIXED << Cover image and mission statement are stuck on the left when adjusting navbar to full size
-
->> Locations Added
-  >> Location cards not aligning on a row, staying stacked as a column
-
->> Add contact info
-
->> Add Footer
-*/
